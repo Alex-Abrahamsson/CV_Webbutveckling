@@ -1,0 +1,54 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image:linear-gradient(black,#303030,#404040,#303030, black);
+    color: #909090;
+}
+
+div 
+{
+    /*border: 1px solid red;*/
+}
+h1
+{
+    color:white;
+    margin-bottom:45px;
+}
+h2 
+{
+    margin-bottom: 25px;
+}
+h3
+{
+    margin-left:10%;
+    color:white;
+}
+.ProfilePic {
+    background-image: url(/Assets/jag3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 1px 35px yellow;
+    margin-bottom:20px;
+}
+p
+{
+    margin-top:5px;
+    margin-bottom:3px;
+}
