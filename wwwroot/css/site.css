@@ -13,15 +13,11 @@ html {
   min-height: 100%;
 }
 
+
 body {
     margin-bottom: 60px;
     background-image:linear-gradient(black,#303030,#404040,#303030, black);
     color: #909090;
-}
-
-div 
-{
-    /*border: 1px solid red;*/
 }
 h1
 {
@@ -46,6 +42,14 @@ h3
     height: 300px;
     box-shadow: 5px 1px 35px yellow;
     margin-bottom:20px;
+}
+.HomePagePic
+{
+    background-image:url(/Assets/Falsterbo.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-radius: 20%;
+    height:80vh;
 }
 p
 {
